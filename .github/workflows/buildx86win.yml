@@ -3,7 +3,7 @@ name: Build x86
 on: [push,workflow_dispatch]
 
 env:
-  DOTNET_SDK_VERSION: '8.0.*'
+  DOTNET_SDK_VERSION: '6.0.*'
 
 jobs:
 
